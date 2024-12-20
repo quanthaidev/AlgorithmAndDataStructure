@@ -7,7 +7,6 @@ public class TruongHop2 {
         //Kích thước mảng
         int n = arr.length;
 
-
         // Bắt đầu từ phần tử thứ 2 (vì phần tử đầu tiên coi như đã được sắp xếp)
         for (int i = 1; i < n; i++) {
             int key = arr[i];
@@ -21,6 +20,7 @@ public class TruongHop2 {
 
             // Chèn key vào vị trí đúng
             arr[j + 1] = key;
+            System.out.println("Check");
         }
     }
 
