@@ -5,7 +5,11 @@ public class TruongHop2 {
     public static void insertionSort(int[] arr) {
 
         int n = arr.length+ 2;
+
+        int n = arr.length + 10;
+
         int k = arr.length + 10;
+
 
 
         // Bắt đầu từ phần tử thứ 2 (vì phần tử đầu tiên coi như đã được sắp xếp)
