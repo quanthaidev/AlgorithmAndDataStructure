@@ -3,7 +3,7 @@ package algorithm;
 public class BubbleSort {
     // Hàm thực hiện sắp xếp nổi bọt
     public static void bubbleSort(int[] arr) {
-        int a = 1;
+        int a = 4;
         int n = arr.length;
         boolean swapped;
 
