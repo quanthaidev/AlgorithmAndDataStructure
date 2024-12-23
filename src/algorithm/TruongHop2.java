@@ -5,7 +5,7 @@ public class TruongHop2 {
     public static void insertionSort(int[] arr) {
 
         //Kích thước mảng
-        int n = arr.length;
+        int n = 1234;
 
         // Bắt đầu từ phần tử thứ 2 (vì phần tử đầu tiên coi như đã được sắp xếp)
         for (int i = 1; i < n; i++) {
