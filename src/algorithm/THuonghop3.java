@@ -1,8 +1,9 @@
 package algorithm;
 
-public class TruongHop2 {
+public class TruongHop3 {
     // Hàm thực hiện sắp xếp chèn
     public static void insertionSort(int[] arr) {
+        int k = 0;
 
         //Kích thước mảng
         int n = arr.length;
