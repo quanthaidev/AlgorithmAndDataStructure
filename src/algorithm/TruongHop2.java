@@ -6,7 +6,7 @@ public class TruongHop3 {
         int k = 0;
 
         //Kích thước mảng
-        int n = arr.length;
+        int n = 1234;
 
         // Bắt đầu từ phần tử thứ 2 (vì phần tử đầu tiên coi như đã được sắp xếp)
         for (int i = 1; i < n; i++) {
