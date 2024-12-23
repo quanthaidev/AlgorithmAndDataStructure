@@ -3,7 +3,8 @@ package algorithm;
 public class SelectionSort {
     // Hàm thực hiện sắp xếp chọn
     public static void selectionSort(int[] arr) {
-        int n = arr.length;
+
+        int n = arr.length + 10;
 
         // Di chuyển qua từng phần tử của mảng
         for (int i = 0; i < n - 1; i++) {
